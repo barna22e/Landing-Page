@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0; 
+  }
+  
+  body{
+
+    background: linear-gradient(to right, #78c2ff, #e8f1df);
+
+  }
+  
+  .max-width-1 {
+    max-width: 95vw;
+  }
+  
+  .m-auto {
+    margin: auto;
+  }
+
+  .navigation {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-left {
+    display: flex;
+  }
+  
+  .nav-left span img{
+    font-size: 35px;
+    padding-top: 10px;
+  }
+  
+  .nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 250px;
+    font-size: 22px;
+    padding-bottom: 0px;
+  }
+  
+  .nav-left ul li {
+    list-style: none;
+    margin: 0 50px;
+    font-family: Handlee;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-left ul li a {
+    position: relative;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.781);
+    padding: 0px 10px ;
+    font-size: 8mm;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 2s ease-out 100ms;
+  }
+  
+  .nav-left ul li a:hover {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .content {
+    height: 70%;
+    display: flex;
+    margin-top: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  
+  .content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 49px;
+    z-index: 1;
+    font-family:'Poppins',sans-serif;
+  }
+  .content-left h1 {
+    font-size: 35px;
+    background: linear-gradient(90deg, rgb(20, 15, 125) 0%, rgb(87, 47, 156) 0%, rgb(28, 123, 142) 29%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  .content-left p{
+    color: #000000b2;
+    font-size: 18px;
+  }
+  
+  .content-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 49px;
+    z-index: 1;
+    font-family:'Poppins',sans-serif;
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+  }
+  .extraspace{
+    margin-top: 0px;
+  }
+  .content-right p{
+    color: #000000b2;
+    font-size: 18px;
+  }
+  .content-right img {
+    height: 250px;
+    border: 2px solid rgb(33, 132, 71);
+    border-radius: 20px;
+  }
+
+  .content-left img {
+    height: 250px;
+    border: 2px solid rgb(33, 132, 71);
+    border-radius: 20px;
+  }  
+
+
+  .home-articles {
+    padding: 18px;
+    background-image: linear-gradient(to top, #7ae9da67 0%, #e3eeff 99%, #e3eeff 100%);
+    margin-top: 23px;
+    position: relative;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .home-articles h2{
+    color: #1c5f80;
+  }
+  .home-article {
+    display: flex;
+    margin: 25px;
+  }
+  
+  .home-article img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .home-article-content {
+    align-self: center;
+    padding: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.7;
+  }
+
+footer{
+    background-image: linear-gradient(to right, #5dcee5, #5f89e4);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 10px;
+    margin: 0px 13px;
+  }
+.footer li{
+  border-radius: 10px;
+  box-sizing: content-box;  
+  width: 140px;
+  height: 20px;
+  padding: 10px;  
+  border: 1px solid rgb(19, 144, 90);
+  text-decoration: none;
+  font-size: 15px;
+  list-style: none;
+  margin:30px 60px;
+  text-align: center;
+  font-family: 'Poppins',sans-serif;
+}
+.footer ul {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.footer-content ul{
+  display: flex;
+  margin:30px 60px;
+  font-family: 'Poppins',sans-serif;
+}
+.footer-content li {
+  margin: 0px 50px;
+  list-style: none;
+}
+.footer-content1{
+  border-radius: 10px;
+  box-sizing: content-box;  
+  width: 200px;
+  height: 20px;
+  padding: 10px;  
+  border: 1px solid rgb(19, 144, 90);
+}
+.footer-img li{
+  cursor: pointer;
+  margin-left: 20px;
+  list-style: none;
+}
+.credit{
+  border-radius: 10px;
+   box-sizing: content-box;  
+   width: 200px;
+   height: 20px;
+   padding: 10px;  
+   border: 1px solid rgb(19, 144, 90);
+   font-size: 15px;
+   display: flex;
+}
